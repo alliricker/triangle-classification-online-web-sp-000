@@ -15,7 +15,7 @@ class Triangle
       :equilateral
     elsif length_1 != length_2 && length_2 != length_3 && length_1 != length_3
       :scalene
-    else length_1 == length_2 || length_1 == length_3 || length_2 = length_3
+    elsif length_1 == length_2 || length_1 == length_3 || length_2 = length_3
       :isosceles
     end
   end
