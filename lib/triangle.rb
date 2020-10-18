@@ -19,5 +19,6 @@ class Triangle
       :isosceles
     end
   end
+end
 
 end
