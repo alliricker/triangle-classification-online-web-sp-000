@@ -17,8 +17,8 @@ class Triangle
       :scalene
     elsif length_1 == length_2 || length_1 == length_3 || length_2 = length_3
       :isosceles
-
-
     end
+  end
+  class TriangleError < StandardError
   end
 end
